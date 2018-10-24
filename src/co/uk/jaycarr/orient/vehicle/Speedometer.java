@@ -1,8 +1,8 @@
 package co.uk.jaycarr.orient.vehicle;
 
 /**
- * Represents the speedometer of the car, used to
- * show how fast the car is driving as well as other
+ * Represents the speedometer of the vehicle, used to
+ * show how fast the vehicle is driving as well as other
  * details.
  *
  * @author Jay Carr

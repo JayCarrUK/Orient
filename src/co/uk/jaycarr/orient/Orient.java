@@ -26,7 +26,7 @@ public final class Orient {
         // The max speed is deeply encapsulated within the Speedometer.
         println("Car max speed: " + car.getSpeedometer().getMaxSpeed());
 
-        // We can not accelerate the car and then brake it again.
+        // We can now accelerate the car and then brake it again.
         car.getSpeedometer().accelerate(5);
 
         // This is a reference to the speedometer of the car.
@@ -42,7 +42,7 @@ public final class Orient {
         // All vehicles have a speedometer in this instance, so we can access it without casting.
         println("Bus max speed: " + busVehicle.getSpeedometer().getMaxSpeed());
 
-        // But we cannot do this without being the field being an explicit Bus type.
+        // But we cannot do this without being the field being an explicitly of type Bus.
         // busVehicle.setButtonPressed(true);
 
         // Now we can adjust the button pressed state.

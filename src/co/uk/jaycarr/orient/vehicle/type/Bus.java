@@ -5,7 +5,7 @@ import co.uk.jaycarr.orient.vehicle.VehicleType;
 
 /**
  * A bus representation whereby the generic features
- * are inherited by {@link Vehicle}.
+ * are inherited from {@link Vehicle}.
  *
  * @author Jay Carr
  */
